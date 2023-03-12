@@ -24,11 +24,11 @@ export const clip = new HTMLClip({
   },
 });
 
-clip.addIncident(opacity(1,".text",1000),1000);
-clip.addIncident(leftMove("-10px",".box:nth-child(2)",500),3000);
-clip.addIncident(leftMove("-20px",".box:nth-child(3)",500),3000);
-clip.addIncident(leftMove("0px",".box",500),5000);
-clip.addIncident(leftMove("362px",".box:nth-child(1)",800),9500);
-clip.addIncident(leftMove("242px",".box:nth-child(2)",800),9500);
-clip.addIncident(leftMove("122px",".box:nth-child(3)",800),9500);
-clip.addIncident(leftMove("83%",".text",800),9500);
+clip.addIncident(opacity(1,".text",1000),300);
+clip.addIncident(leftMove("-10px",".box:nth-child(2)",500),1500);
+clip.addIncident(leftMove("-20px",".box:nth-child(3)",500),1500);
+clip.addIncident(leftMove("0px",".box",500),3000);
+clip.addIncident(leftMove("362px",".box:nth-child(1)",800),4000);
+clip.addIncident(leftMove("242px",".box:nth-child(2)",800),4000);
+clip.addIncident(leftMove("122px",".box:nth-child(3)",800),4000);
+clip.addIncident(leftMove("83%",".text",800),4000);
